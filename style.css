@@ -5,10 +5,14 @@
     box-sizing: border-box;
 }
 
-.link-header {
+header {
     margin-top: 47px;
     margin-left: 42px;
-    margin-right: 36px;
+    
+}
+
+.link-header{
+    margin-right: 32px;
     font-weight: 400;
     display: inline-block;
     text-decoration: none;
@@ -17,7 +21,7 @@
 .button-header {
     background: #6FBF44;
     border: 1px solid #4CB538;
-    border-radius: 15px;
+    border-radius: 6px;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -31,7 +35,7 @@
 img {
     width: 595px;
     margin-left: 121px;
-    margin-top: 146px;
+    margin-top: 163px;
     display: inline-block;
 }
 
@@ -69,4 +73,5 @@ p {
     color: #6FBF44;
     text-decoration: none;
     margin-left: 30px;
+    background: transparent;
 }
